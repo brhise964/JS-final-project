@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head DIR="RTL">
+    <title>THE GUIDER HOTEL FINDER</title>
+ 	
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="utf-8">
+  
+  <script type="text/javascript" src="https://ie.kis.v2.scr.kaspersky-labs.com/DCD708EE-7FA7-F94F-B3BA-EFEDB10E6E0B/main.js" charset="UTF-8"></script></head>
+  <body>
+		<div class="headerText">
+			<h1 style="font-size:22pt; color:#13545a; font-weight:bolder;">  Welcome to Your Places Guider</h1>
+		</div>
+		<div class="allControls">
+		<table>
+			<tr>
+				<td>
+					<p style="font-size:22pt; color:#13545a; font-weight:bolder;">Find</p>
+				</td>
+				<td colspan="2">
+					<select id="category" class="ipts">
+						<option value="lodging">Hotels</option>
+						<option value="store" selected>Stores</option>
+						<option value="restaurant">Resturant</option>
+						<option value="bank">bank</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p style="font-size:22pt; color:#13545a; font-weight:bolder;">In : </p>
+				</td>
+				<td>
+					<input id="autocomplete" class="ipts" placeholder="Enter a city" type="text" />
+				</td>
+				<td>
+					<select id="country" class="ipts">
+						<option value="all">All</option>
+						<option value="sa" selected>Saudi Arabia</option>
+						<option value="br">Brazil</option>
+						<option value="ca">Canada</option>
+						<option value="fr">France</option>
+						<option value="de">Germany</option>
+						<option value="mx">Mexico</option>
+						<option value="nz">New Zealand</option>
+						<option value="it">Italy</option>
+						<option value="za">South Africa</option>
+						<option value="es">Spain</option>
+						<option value="pt">Portugal</option>
+						<option value="us" >U.S.A.</option>
+						<option value="uk">United Kingdom</option>
+					</select>	
+				</td>
+			</tr>
+		</table>
+</div>
+		
+			<div id="map" class="mapData"></div>
+		
+		<div id="listing">
+			<table id="resultsTable">
+				<tbody id="results"></tbody>
+			</table>
+		</div>
+
+    <div style="display: none">
+      <div id="info-content">
+        <table>
+          <tr id="iw-url-row" class="iw_table_row">
+            <td id="iw-icon" class="iw_table_icon"></td>
+            <td id="iw-url"></td>
+          </tr>
+          <tr id="iw-address-row" class="iw_table_row">
+            <td class="iw_attribute_name">Address:</td>
+            <td id="iw-address"></td>
+          </tr>
+          <tr id="iw-phone-row" class="iw_table_row">
+            <td class="iw_attribute_name">Telephone:</td>
+            <td id="iw-phone"></td>
+          </tr>
+          <tr id="iw-rating-row" class="iw_table_row">
+            <td class="iw_attribute_name">Rating:</td>
+            <td id="iw-rating"></td>
+          </tr>
+          <tr id="iw-website-row" class="iw_table_row">
+            <td class="iw_attribute_name">Website:</td>
+            <td id="iw-website"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="scripts.js">
+    
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCm7dXlQSs8k6iWTz1QqjHxuMKJHS9jOc&libraries=places&callback=initMap"
+        async defer></script>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+body{
+		padding:0px;
+		margin:0px;
+		background:#f9f9f9;
+	}
+      #map {
+        height: 80%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        font-size: 12px;
+      }
+      #map {
+        width: 1100px;
+      }
+      #listing {
+        position: absolute;
+        width: 250px;
+        height: 80%;
+        overflow: auto;
+        left: 100px;
+        top: 265px;
+        cursor: pointer;
+        overflow-x: hidden;
+      }
+      #findhotels {
+        position: absolute;
+        text-align: center;
+        width: 50px;
+		left:230px;
+        font-size: 14px;
+        padding: 4px;
+        z-index: 5;
+        background-color: #fff;
+		height:40px;
+		
+      }
+	  #findhotels1 {
+        position: absolute;
+        text-align: center;
+		left:0px;
+        width: 70px;
+        font-size: 14px;
+        padding: 4px;
+        z-index: 3;
+        background-color: #fff;
+		height:40px;
+      }
+      #locationField {
+        position: absolute;
+        width: 190px;
+        left: 300px;
+        top: 0px;
+        z-index: 5;
+        background-color: #fff;
+		height:40px;
+      }
+      #controls {
+        position: absolute;
+        left: 500px;
+        width: 140px;
+        top: 0px;
+        z-index: 5;
+        background-color: #fff;
+      }
+	        #controls1 {
+        position: absolute;
+        left: 80px;
+        width: 140px;
+        top: 0px;
+        z-index: 3;
+        background-color: #fff;
+      }
+      #autocomplete {
+        width: 100%;
+		height:40px;
+      }
+      #country {
+        width: 100%;
+		height:40px;
+      }
+	  #category {
+        width: 100%;
+		height:40px;
+      }
+	  
+      .placeIcon {
+        width: 20px;
+        height: 34px;
+        margin: 4px;
+      }
+      .hotelIcon {
+        width: 24px;
+        height: 24px;
+      }
+      #resultsTable {
+        border-collapse: collapse;
+        width: 240px;
+      }
+      #rating {
+        font-size: 13px;
+        font-family: Arial Unicode MS;
+      }
+      .iw_table_row {
+        height: 18px;
+      }
+      .iw_attribute_name {
+        font-weight: bold;
+        text-align: right;
+      }
+      .iw_table_icon {
+        text-align: right;
+      }
+	  
+	  .headerText,.allControls,.mapData{
+		text-align:center;
+		width:85%;
+		padding:10px;
+		margin:5px auto;
+		border:2px solid #c3c1c1;
+		border-radius:10px;
+		font-weight:bold;
+		font-family: tahoma;
+	  } 
+	  .allControls table{width:80%;margin:0px auto;}
+	  .allControls table tr td{
+		padding:10px;
+	  }
+	  .allControls table tr td .ipts{
+		padding:5px;
+		border:2px solid #666;
+		border-radius:10px;
+		font-weight:bold;
+		font-family: tahoma;
+	  }
+	  .mapData{
+		width:100%
+		height:80%;
+	  }
+	  h1{font-size:25px;}
+	   body{
+	  background-image: url(https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/598575/settings_images/DvPCNj2GRYKHSeasez4X_options.png);
+	  background-repeat:no-repeat;
+	   background-size: 100%;
+	  
+	  }
